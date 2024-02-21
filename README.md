@@ -1,7 +1,7 @@
 
 # Prueba Técnica de Desarrollador Backend 
 
-A brief description of what this project does and who it's for
+Este proyecto consiste en una aplicación simple de gestión de productos para una tienda en línea, desarrollada utilizando el framework Laravel y MySQL como base de datos.
 
 
 ## Authors
