@@ -1,7 +1,7 @@
 
 # Prueba Técnica de Desarrollador Backend 
 
-Este proyecto consiste en una aplicación simple de gestión de productos para una tienda en línea, desarrollada utilizando el framework Laravel y MySQL como base de datos.
+A brief description of what this project does and who it's for
 
 
 ## Authors
@@ -50,7 +50,11 @@ Se han utilizado controladores y Eloquent ORM para implementar estas funcionalid
 ## Ejecución y Pruebas
 
 Para ejecutar la aplicación y realizar pruebas, sigue estos pasos:
-
+NOTA: es necesario configurar en la herramienta postman los headers para realizar las peticiones en:\
+Key = accept, Value = application/json
+Key = Content-Type, Value = application/json
+Los endpoints http://127.0.0.1:8000/api/logout y http://127.0.0.1:8000/api/products (POST) requieren Authorization Type bearer token y colocar el token que dio el login
+Canviar el archivo .env para colocar los datos pertinentes en la base de datos
 1. Clona el repositorio en tu máquina local.
 2. Configura el archivo `.env` con la información de tu base de datos y otros parámetros necesarios.
 3. Ejecuta las migraciones para crear la estructura de la base de datos: `php artisan migrate`.
